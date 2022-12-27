@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.tree {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #252526;
+  font-size: 1.4em;
+}
+
+.m-node.placeholder {
+  border: 1px solid #007fd4;
+}
+
+.m-node .inner {
+  color: #c2bfc2;
+  font-size: 12px;
+  font-weight: 300;
+}
+.m-node .node {
+  display: inline-block;
+  width: 100%;
+  padding: 4px 5px;
+}
+
+.m-node .node.is-active {
+  background-color: #31363f;
+}
+.tree .explorer {
+  font-weight: 300 !important;
+  font-size: 12px !important;
+  padding-left: 9px;
+  display: block !important;
+  margin-bottom: 8px !important;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.m-node .collapse{
+  top: -2px !important;
+  left: 2px !important;
+  
+}
+
